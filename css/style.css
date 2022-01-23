@@ -1,5 +1,5 @@
 .header{
-    background-image: url('/image/image2.jpg');
+    background-image: url('image/image2.jpg');
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,7 +42,7 @@
     height: 70vh;
     text-align: center;
     vertical-align: middle;
-    background-image: url('/image/image2.jpg');
+    background-image: url('image/image2.jpg');
     background-position: top;
     background-size: cover;
   }
@@ -74,7 +74,7 @@
   }
   
   .container1-footer{
-    background-image: url('/image/image2.jpg');
+    background-image: url('image/image2.jpg');
     height: 15vh;
     background-position: top;
     background-size: cover;
@@ -175,7 +175,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
-    background-image: url('/image/t-background-img.jpg');
+    background-image: url('image/t-background-img.jpg');
     background-color: rgb(114, 51, 160);
     color: ivory;
     text-align: center;
@@ -324,7 +324,7 @@
   /*                          Count                            */
   /* ********************************************************* */
   .count{
-    background-image: url('/image/count-img.jpg');
+    background-image: url('image/count-img.jpg');
     background-color: #f1d323ec;
     background-blend-mode: color-burn;
     background-repeat: no-repeat;
