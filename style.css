@@ -84,18 +84,57 @@
   /*                         About US                          */
   /* ********************************************************* */
   
-  /* .progress{
-    margin-bottom: 5px;
-  } */
-  
   .p-bar{
     width:95%;
     margin: auto;
     justify-content: space-between;
   }
+  
+  .p-bar-indicator1{
+    margin-left: 49%;
+  }
+  
+  
+  .p-bar-indicator2{
+    margin-left: 72%;
+  }
+  
+  .p-bar-indicator3{
+    margin-left: 75%;
+  }
+  
   .p-bar-text{
     display: inline;
     margin-left: 7px;
+  }
+  
+  .p-bar-indicator1{
+    position:relative;
+    background-color: #ff7f50;
+    padding-top:2px;
+    max-width: 60px;
+    height: 30px;
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    color: white;
+    font-weight: 500;
+  }
+  
+  .p-bar-indicator1::after{
+    background-color: #ff7f50;
+    position: absolute;
+    height: 10px;
+    width:10px;
+    border-top: 0px solid #ff7f50;
+    border-left: 0px solid #ff7f50;
+    border-right: 2px solid #ff7f50;
+    border-bottom: 2px solid #ff7f50;
+    top:100%;
+    left:50%;
+    margin-left: -5px;
+    margin-top: -6px;
+    content:'';
+    transform: rotate(45deg);
   }
   
   .p-bar-1 {
@@ -107,6 +146,35 @@
     background-color: #ff7f50;
   }
   
+  .p-bar-indicator2{
+    position:relative;
+    background-color: #ffd700;
+    padding-top:2px;
+    max-width: 60px;
+    height: 30px;
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    color: white;
+    font-weight: 500;
+  }
+  
+  .p-bar-indicator2::after{
+    background-color: #ffd700;
+    position: absolute;
+    height: 10px;
+    width:10px;
+    border-top: 0px solid #ffd700;
+    border-left: 0px solid #ffd700;
+    border-right: 2px solid #ffd700;
+    border-bottom: 2px solid #ffd700;
+    top:100%;
+    left:50%;
+    margin-left: -5px;
+    margin-top: -6px;
+    content:'';
+    transform: rotate(45deg);
+  }
+  
   .p-bar-2{
     color: #ffd700;
     margin-bottom: 25px;
@@ -115,6 +183,37 @@
   .bar2{
     background-color: #ffd700;
   }
+  
+  .p-bar-indicator3{
+    position:relative;
+    background-color: #4c2882;
+    padding-top:2px;
+    max-width: 60px;
+    height: 30px;
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    color: white;
+    font-weight: 500;
+    
+  }
+  
+  .p-bar-indicator3::after{
+    background-color: #4c2882;
+    position: absolute;
+    height: 10px;
+    width:10px;
+    border-top: 0px solid #4c2882;
+    border-left: 0px solid #4c2882;
+    border-right: 2px solid #4c2882;
+    border-bottom: 2px solid #4c2882;
+    top:100%;
+    left:50%;
+    margin-left: -5px;
+    margin-top: -6px;
+    content:'';
+    transform: rotate(45deg);
+  }
+  
   .p-bar-3{
     color: #4c2882;
     margin-bottom: 25px;
