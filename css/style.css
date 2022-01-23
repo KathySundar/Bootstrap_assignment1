@@ -1,0 +1,648 @@
+.header{
+    background-image: url('/image/image2.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .navbar-light .navbar-brand{
+    color:black;
+  } 
+  
+  .logo > h1{
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: black;
+    padding:8px;
+  }
+  
+  .navbar-nav{
+    width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+  }
+  
+  .nav-link {
+   font-weight: 600;
+  }
+  
+  .navbar{
+    height:100px;
+  }
+  
+  /* ********************************************************* */
+  /*                       Container1                          */
+  /* ********************************************************* */
+  
+  .container1{
+    display: table;
+    height: 70vh;
+    text-align: center;
+    vertical-align: middle;
+    background-image: url('/image/image2.jpg');
+    background-position: top;
+    background-size: cover;
+  }
+  
+  .container1-content{
+    display: table-cell;
+    vertical-align: middle;
+    color:black;
+  }
+  
+  .container1-content > h1{
+    font-size: 5rem;
+    margin-bottom: 30px;
+  }
+  
+  .bi-square-fill{
+    font-size: small;
+    color: yellow;
+  }
+  
+  .container1 .btn{
+    font-weight: 500;
+    color: black;
+    margin-top: 30px;
+  }
+  
+  .container1 .btn-outline-dark{
+    border: solid 3px black;
+  }
+  
+  .container1-footer{
+    background-image: url('/image/image2.jpg');
+    height: 15vh;
+    background-position: top;
+    background-size: cover;
+  }
+  
+  /* ********************************************************* */
+  /*                         About US                          */
+  /* ********************************************************* */
+  
+  /* .progress{
+    margin-bottom: 5px;
+  } */
+  
+  .p-bar{
+    width:95%;
+    margin: auto;
+    justify-content: space-between;
+  }
+  .p-bar-text{
+    display: inline;
+    margin-left: 7px;
+  }
+  
+  .p-bar-1 {
+    color: #ff7f50;
+    margin-bottom: 25px;
+  }
+  
+  .bar1{
+    background-color: #ff7f50;
+  }
+  
+  .p-bar-2{
+    color: #ffd700;
+    margin-bottom: 25px;
+  }
+  
+  .bar2{
+    background-color: #ffd700;
+  }
+  .p-bar-3{
+    color: #4c2882;
+    margin-bottom: 25px;
+  }
+  
+  .bar3{
+    background-color:#4c2882;
+  }
+  
+  /* ********************************************************* */
+  /*                         Projects                          */
+  /* ********************************************************* */
+  .project{
+    height:60vh;
+  }
+  
+  
+  
+  .project-1{
+    height: 50%;
+    width: 100%;
+    margin-top: 80px;
+    display: table;
+    text-align: center;
+    vertical-align: middle;
+    /* background-image: repeating-linear-gradient(135deg, lightgray, lightgray 0.6px, #f4f0ec 0.6px, #f4f0ec 5px); */
+    background: repeating-linear-gradient(
+        135deg,
+        lightgray,
+        lightgray  10px,
+        lightgray 1px,
+        rgb(185, 185, 185) 11px
+      );
+  }
+  
+  .project-2{
+    height: 50%;
+  }
+  
+  .project-1-content{
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  .project-1-content > h5{
+    color: rgb(129, 129, 129);
+  }
+  
+  /* ********************************************************* */
+  /*                       Testimonials                        */
+  /* ********************************************************* */
+  .carousel-indicators > button{
+    border-radius: 100%;     
+  }
+  
+  .carousel-item{
+    /* height:85vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-image: url('/image/t-background-img.jpg');
+    background-color: rgb(114, 51, 160);
+    color: ivory;
+    text-align: center;
+  }
+  
+  .testimonial-container{
+    text-align: center;
+  }
+  
+  .testimonial-container > img{
+    width:110px;
+    height:110px;
+  }
+  
+  .testimonial-container > p{
+    background-color: rgb(84, 55, 105);
+    padding:30px;
+    color: ivory;
+    width:60%;
+    margin: auto;
+  }
+  
+  .testimonial-container > h4{
+    margin-top: 40px;
+    margin-bottom: 100px;
+  }
+  
+  /* ********************************************************* */
+  /*                         Services                          */
+  /* ********************************************************* */
+  .services{
+    /* height: 50vh; */
+    text-align: center;
+    /* background-color: red; */
+    
+  }
+  
+  .services-1>p{
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  
+  .services-1> h1{
+    font-weight: 800;
+  }
+
+  .services-row{
+      width:90%;
+      margin: auto;
+  }
+  
+  .column{
+    border:2px solid black;
+    padding:10px;
+  }
+  
+  .fas{
+    font-size: x-large;
+  }
+  
+  .column1 > i{
+    color:#db652e;
+  }
+  
+  .column1 > h4{
+    color:#db652e;
+    font-weight: 900;
+  }
+  .column2 > i{
+    color:#d1c062
+  }
+  
+  .column2 > h4{
+    color:#d1c062;
+    font-weight: 900;
+  }
+  
+  .column3 > i{
+    color:indigo;
+  }
+  
+  .column3 > h4{
+    color:indigo;
+    font-weight: 900;
+  }
+  
+  /* ********************************************************* */
+  /*                       Latest News                         */
+  /* ********************************************************* */
+  
+  .latest-news{
+    background-color: #36454f;
+    padding-top:5px;
+    padding-bottom:70px;
+  }
+  
+  .news-header > h1{
+    color:white;
+    font-weight: 700;
+  }
+  
+  .news-header > p{
+    color: lightgray;
+    font-size: 0.9rem;
+  }
+  
+  .news-button{
+    color: white;
+    background-color:#f5c71a;
+    border:none;
+    padding: 6px 25px;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  
+  .card-items{
+    border: 2px solid gray;
+    padding: 0px;
+    margin: 10px;
+  }
+  
+  .card-items >img{
+    margin: 0;
+  }
+  
+  .news-card-body > h4{
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .news-card-body > p{
+    margin-bottom: 30px;
+  }
+  
+  .news-card-body > a {
+    display: block;
+    color:#f5c71a;
+    text-decoration: none;
+    margin-bottom: 7px;
+  }
+  
+  
+  /* ********************************************************* */
+  /*                          Count                            */
+  /* ********************************************************* */
+  .count{
+    background-image: url('/image/count-img.jpg');
+    background-color: #f1d323ec;
+    background-blend-mode: color-burn;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding:20px 40px;
+    border:2px solid gray;
+  }
+  
+  .count-item{
+    padding:20px 0px;
+    width: 100%;
+    /* background-color: khaki; */
+  }
+  
+  .count-items{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:white;
+  }
+  
+  .count-items > h1{
+    font-size: 3rem;
+    font-weight: 800;
+  }
+  
+  .count-items > h5{
+    font-weight: 600;
+  }
+  
+  /* ********************************************************* */
+  /*                          Team                             */
+  /* ********************************************************* */
+  
+  .team{
+  
+    background: repeating-linear-gradient(
+        135deg,
+        lightgray,
+        lightgray  10px,
+        lightgray 1px,
+        rgb(185, 185, 185) 11px
+      );
+  }
+  
+  .team > h1{
+    font-weight: 800;
+  }
+  
+  .team > p{
+    font-weight: 400;
+    font-size: 0.9rem;
+    
+  }
+  
+  .team-item1 > h5{
+    font-weight: 800;
+  }
+  
+  .team-item2 > h5{
+    font-weight: 800;
+  }
+  
+  .team-item3 > h5{
+    font-weight: 800;
+  }
+  
+  .team-item1 > h6{
+    color:#e2725b;
+  }
+  
+  .team-item2 > h6{
+    color:#d4af37;
+  }
+  
+  .team-item3 > h6{
+    color:#483d8b;
+  }
+  
+  .team-items{
+    width: 80%;
+  }
+  .team-item{
+    background: none;
+  }
+  
+  .fab {
+    padding: 3px;
+    font-size: 10px;
+    width: 18px;
+    text-align: center;
+    border-radius: 50%;
+  }
+  
+  .team-item1 > .fa-facebook-f {
+    border: 1px solid #e2725b;
+    color: #e2725b;
+    font-weight: 900;
+  }
+  
+  .team-item1 > .fa-twitter {
+    border: 1px solid #e2725b;
+    color: #e2725b;
+  }
+  
+  .team-item1 > .fa-linkedin-in{
+    border: 1px solid #e2725b;
+    color: #e2725b;
+  }
+  
+  .team-item2 > .fa-facebook-f {
+    border: 1px solid #d4af37;
+    color: #d4af37;
+    font-weight: 900;
+  }
+  
+  .team-item2 > .fa-twitter {
+    border: 1px solid #d4af37;
+    color: #d4af37;
+  }
+  
+  .team-item2 > .fa-linkedin-in{
+    border: 1px solid #d4af37;
+    color: #d4af37;
+  }
+  
+  .team-item3 > .fa-facebook-f {
+    border: 1px solid #483d8b;
+    color: #483d8b;
+    font-weight: 900;
+  }
+  
+  .team-item3 > .fa-twitter {
+    border: 1px solid #483d8b;
+    color: #483d8b;
+  }
+  
+  .team-item3 > .fa-linkedin-in{
+    border: 1px solid #483d8b;
+    color: #483d8b;
+  }
+  
+  .team-image{
+      width: 110px;
+      height: 100px;
+      padding-top: 10px;
+  }
+  
+  .card{
+      border:none;
+  }
+  
+  /* ********************************************************* */
+  /*                       Contact Us                          */
+  /* ********************************************************* */
+  
+  .contact-us{
+    width:91%;
+    margin: auto;
+  }
+  
+  .contact-us > h1{
+    font-weight: 700;
+  }
+  
+  .contact-us-address{
+    display: inline-block;
+  }
+  
+  .contact-us-item > h6{
+    color:#e9c54f;
+  }
+  
+  .contact-us-icon > *{
+    display: inline-block;
+    padding-top: 10px;
+    color:gray;
+  }
+  
+  .countact-us-msg >input{
+    height:250px;
+  }
+  
+  .contact-us-button{
+    color:white;
+    background-color: #d4af37;
+    border:none;
+  }
+  
+  /* ********************************************************* */
+  /*                         Footer                            */
+  /* ********************************************************* */
+  
+  .footer{
+    background-color: rgb(31, 31, 31);
+    /* background-color: thistle; */
+    width:100%;
+  }
+  
+  .footer-row{
+    width: 85%;
+    margin: auto;
+    /* background-color: yellow; */
+  }
+  .footer-items >h3{
+    font-weight: 600;
+    color: white;
+  }
+  
+  .footer-items > p{
+    color: gray;
+  }
+  
+  .fa-chevron-right{
+   font-size: 0.5rem;
+  }
+  
+  
+  /* *********************************************************************************  */
+  /*                                  Media quries                                      */
+  /* ********************************************************************************** */
+  @media only screen and (min-device-width: 320px) and (max-device-width: 790px){
+    .logo > h1{
+        color: gray;
+    }
+  
+    .container1-content > h1{
+        font-size: 1.8rem;
+    }
+  
+    .container1-content > p{
+        font-size:0.85rem;
+    }
+  
+    .p-bar-text{
+        font-size: 0.7rem;
+    }
+  
+    .project{
+        height:40vh;
+        margin-top: 8px;
+    }
+  
+    .project-1{
+        margin-top: 0px;
+        height: 70%;
+    }
+  
+    .project-2{
+        height: 30%;
+    }
+  
+    .project-1-content{
+        height:90%;
+    }
+  
+    .project-1-content > h5{
+        font-size: 0.9rem;
+    }
+  
+    .project-1-content > h1{
+        font-size: 0.9rem;
+    }
+    .testimonial-container > p{
+        width:80%;
+    }
+  
+    .contact-us-item > *{
+        font-size: 0.7rem;
+        margin-bottom:3rem;
+    }
+    
+     .contact-us-icon > *{
+        padding-top: 0px;
+    }
+    
+  
+  }
+  
+  @media only screen and (max-device-width: 991px){
+    .navbar-light .navbar-nav .nav-link {
+      /* background-color: rgba(226, 226, 226, 0.98); */
+      background-color: rgb(247, 247, 244);
+    }
+  }
+  
+  
+  @media only screen and (min-device-width: 768px) {
+    .logo > h1{
+        padding-left:40px;
+    }
+  
+  }
+  
+  @media only screen and (max-device-width: 375px){
+    .project-1-content > *{
+        font-size: 2.5rem;
+    }
+    .testimonial-container > p {
+        background-color: rgb(84, 55, 105);
+        padding: 10px;
+        color: ivory;
+        width: 85%;
+        margin: auto;
+    }
+    .count-items > h1{
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+  
+    .count-items > h5{
+        font-size:0.8rem;
+    }
+    .count{
+        padding:0;
+    }
+  
+    .count-item{
+        margin: 0;
+    }
+  }
